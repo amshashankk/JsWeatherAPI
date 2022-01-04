@@ -14,7 +14,8 @@ function WeatherLocate() {
           cell2.innerHTML = results.current.temperature + "°C";
       }
   };
+  // Sending the request to the server
   temp.open("GET", 'http://api.weatherstack.com/current?access_key=31999ef43410fa6af27446727c0b2519&query=' + city, true);
   temp.send();
-
+  
 }
