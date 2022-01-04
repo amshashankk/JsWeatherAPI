@@ -5,7 +5,7 @@ function WeatherLocate() {
       if (this.readyState == 4 && this.status == 200) {
           var results = JSON.parse(this.responseText); // Parsing the JSON into a JavaScript object
 
-          // Append result into table
+          // Appending result into table
           var table = document.getElementById("temp");
           var row = table.insertRow(1);
           var cell1 = row.insertCell(0);
