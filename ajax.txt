@@ -1,4 +1,4 @@
-function WeatherLocate() {
+/* function WeatherLocate() {
   var temp = new XMLHttpRequest();
   var city = document.getElementById("city").value;
   temp.onreadystatechange = function () {
@@ -14,7 +14,7 @@ function WeatherLocate() {
           cell2.innerHTML = results.current.temperature + "°C";
       }
   };
-  temp.open("GET", 'http://api.weatherstack.com/current?access_key=31999ef43410fa6af27446727c0b2519&query=' + city, true);
+  temp.open("GET", 'http://api.weatherstack.com/current?access_key=ad83dda1097435ceee3411cd383701d2&query=' + city, true);
   temp.send();
 
-}
+} */
